@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    border-bottom: 1px solid black;
+    font-family: 'Lato';
+  }
+
+
+  .topLinks {
+    position: absolute;
+    display: flex;
+    top: 0;
+    font-size: 12px;
+  list-style-type: none; /* Remove bullets */
+  padding-left: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+  
+  }
+
+  .topLinks > li {
+    padding-left: 20px;
+    padding-right: 15px;
+    line-height: 30px;
+    color: #0073cf;
+    text-align: center;
+  }
+
+  .turnersLogo {
+    position: absolute;
+    left: 200px
+  }
+
+  .navbar {
+    height: 55px;
+    width: 100%;
+    position : absolute;
+    top: 120px;
+    background-color: #0073cf;
+  }
+
+  .contactInfo {
+    position: absolute;
+    right: 275px
+  }
+
+  .navLeft {
+    line-height: 20px;
+    display: flex;
+    list-style-type: none; /* Remove bullets */
+    padding-left: 0; /* Remove padding */
+    margin-left: 200px;
+  }
+
+  .navLeft > li {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-weight: 600;
+  }
+  
+
+  .searchIcon {
+    position: relative;
+    height: 15px;
+    top: 2px;
+    right: 2px;
+    filter: brightness(100);
+  }
+
+  .downArrow {
+    position: relative;
+    height: 15px;
+    top: 4px;
+    right: 2px;
+    filter: brightness(100);
+  }
